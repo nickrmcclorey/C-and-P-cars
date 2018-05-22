@@ -6,32 +6,41 @@
         <title>C and P Cars</title>
     </head>
     <body>
+        <!-- this is the bar at the top of the screen -->
         <div class="header">
             <div class="address">9000B Cincinnati Columbus Rd. <br> Cincinnati, Ohio 45241</div>
-            <div class="title">C and P Cars </div>
+            <div class="title"><h1>C and P Cars</h1> </div>
             <div class="slogan">"We do it all"</div>
         </div>
+
+        <!-- this is the background image -->
         <img class="wrenches" src="pics/wrenches.jpg">
 
+        <!-- this div contains both panels in the middle of the screen  -->
         <div class="middle">
-            <div class="about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus laboriosam ea dicta quibusdam, illum nemo totam laudantium ducimus soluta. Consequuntur blanditiis, ex deserunt nihil dignissimos nam rerum id odio ea doloribus laudantium, reiciendis deleniti. Quae omnis ut aut, maxime laboriosam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut excepturi, dolore dolor qui quos reiciendis nostrum harum! Cumque iusto sapiente vitae repellendus dolores sint, culpa optio facere ipsum! Impedit, similique.
+            <div class="about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus laboriosam ea dicta quibusdam, illum nemo totam laudantium ducimus soluta. Deo Gratias. Credo in unum Deum, patrem omnipotentem. Consequuntur blanditiis, ex deserunt nihil dignissimos nam rerum id odio ea doloribus laudantium, reiciendis deleniti. Quae omnis ut aut, maxime laboriosam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut excepturi, dolore dolor qui quos reiciendis nostrum harum! Cumque iusto sapiente vitae repellendus dolores sint, culpa optio facere ipsum! Impedit, similique.
             </div>
+            <!-- this has the three buttons on the right of the page -->
             <div class="menu">
-                <div class="button">Find Us</div>
+                <div class="button" id = "findUsButton">Find Us</div>
                 <div class="button" id = "saleButton">Cars for Sale</div>
-                <div class="button">Other</div>
+                <div class="button" id = "otherButton">Other</div>
             </div>
-
+            <!-- this is the container below the three buttons
+                 It contains three sub-divs but only one is shown at a time-->
             <div class="content">
                 <div class="map" id="map">
-                    <div>okay</div>
-
+                    <center>
+                        <h2 class="directions">We're located right off U.S. 42 in Pisgah</h2>
+                        <img id="mapPic" height="400" width="500" src="pics/map.jpg" />
+                    </center>
                 </div>
 
                 <div class="sale" id="saleContent">
+
                     <div class="car">
                         <div class="carPic">
-                            <img src="pics/gto.jpg" class="carPic"></img>
+                            <center><img src="pics/gto.jpg" class="carPic"></img></center>
                         </div>
                             <div class="cartittle"><h1>Make Model</h1></div>
 
@@ -55,7 +64,7 @@
                     </div>
                     <div class="car">
                         <div class="carPic">
-                            <img src="pics/gto.jpg" class="carPic"></img>
+                            <center><img src="pics/gto.jpg" class="carPic"></img></center>
                         </div>
                             <div class="cartittle"><h1>Make Model</h1></div>
 
@@ -76,8 +85,11 @@
                                 </ul>
                             </div>
                     </div>
+
                 </div>
-                <div class = "other"> </div>
+                <div id = "otherContent"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, suscipit, accusamus deleniti odio ab blanditiis assumenda necessitatibus dignissimos corrupti reiciendis saepe eveniet molestiae quidem asperiores labore vel iste architecto unde dolor voluptates doloremque, eaque ipsam officia fuga sapiente! Quis esse quia deleniti quo cum officia? Magnam modi, nesciunt non aut tempore dolore, cumque minus vel magni? Sed aspernatur accusamus in corporis error neque atque dolores porro voluptatibus, accusantium, nisi, eum.</p>
+
+                </div>
             </div>
         </div>
 
