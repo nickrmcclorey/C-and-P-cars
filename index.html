@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <link rel="stylesheet" type="text/css" href="index.css">
+
     <head>
         <title>C and P Cars</title>
     </head>
@@ -17,19 +18,21 @@
             </div>
             <div class="menu">
                 <div class="button">Find Us</div>
-                <div class="button">Cars for Sale</div>
+                <div class="button" id = "saleButton">Cars for Sale</div>
                 <div class="button">Other</div>
             </div>
 
             <div class="content">
-                <div class="map">
-                    <p>working</p>
-                    <iframe src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap" width="400" height="300" allowfullscreen></iframe>
+                <div class="map" id="map">
+                    <div>okay</div>
+
                 </div>
 
-                <div class="sale">
+                <div class="sale" id="saleContent">
                     <div class="car">
-                        <div class="carPic"><img src="pics/gto.jpg" class="carPic"></img></div>
+                        <div class="carPic">
+                            <img src="pics/gto.jpg" class="carPic"></img>
+                        </div>
                             <div class="cartittle"><h1>Make Model</h1></div>
 
                             <div class="features">
@@ -50,14 +53,36 @@
                             </div>
 
                     </div>
-                    <div class="car"></div>
-                </div>
+                    <div class="car">
+                        <div class="carPic">
+                            <img src="pics/gto.jpg" class="carPic"></img>
+                        </div>
+                            <div class="cartittle"><h1>Make Model</h1></div>
 
+                            <div class="features">
+                                <ul>
+                                    <li>Miles: xxxxxx</li>
+                                    <li>Year: xxxxx</li>
+                                    <li>More Info: xxxxxx</li>
+                                    <li>How are you</li>
+                                </ul>
+                            </div>
+                            <div class="features">
+                                <ul>
+                                    <li>Comments</li>
+                                    <li>More comments</li>
+                                    <li>You can write this</li>
+                                    <li>Yep</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+                <div class = "other"> </div>
             </div>
         </div>
 
     </body>
 
-
+<script src="switcher.js"></script>
 
 </html>

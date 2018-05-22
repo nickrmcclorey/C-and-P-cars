@@ -11,7 +11,9 @@
         height:100px;
         display:grid;
         grid-template-columns: 1.7fr 1fr 1.7fr;
-        background-color: rgba(75, 187, 54, 0.95);
+        background-color: rgba(249, 249, 249, 1);
+        font-family:fantasy;
+        border-bottom: solid rgba(99, 201, 8, 0.95) 10px;
     }
     .header > div {
         text-align: center;
@@ -49,7 +51,7 @@
         position: relative;
         top: 20px;
         width:85%;
-        height: 600px;
+        height: 590px;
 
         margin:auto;
         padding: 0px;
@@ -63,7 +65,7 @@
 
 /* middle left */
     div.about {
-        background-color: rgba(99, 201, 8, 0.95);
+        background-color: rgba(217, 217, 217, 0.90);
         padding: 0.3em;
         font-size: 120%;
         grid-row: 1/3;
@@ -91,7 +93,8 @@
 
      /* middle right element */
      div.content {
-        background-color: rgb(227, 244, 54);
+        height:100%;
+        background-color: blue;
      }
 
     .other {
@@ -102,13 +105,13 @@
     .sale {
         height:100%;
         width:100%;
-        background-color: rgb(203, 199, 25);
-        display:grid;
+        background-color: rgba(0, 0, 0, 0.67);
+        display:none;
         grid-template-rows: 1fr 1fr;
     }
 
     .car {
-        background-color: rgb(232, 232, 232);
+        background-color: rgba(99, 201, 8, 0.95);
         margin:7px;
         display: grid;
         grid-gap: 0.7em 0em 0em;
@@ -136,7 +139,7 @@
         margin:10px;
         justify-self: center;
         grid-column: 2/4;
-        background-color: rgb(194, 192, 192);
+        background-color: rgb(255, 255, 255);
         display:flex;
         flex-direction: row;
         justify-content: center;
@@ -145,7 +148,7 @@
     .features {
         height:100%;
         width:100%;
-        background-color: rgb(194, 192, 192);
+        background-color: rgb(255, 255, 255);
 
     }
     ul {
@@ -154,5 +157,11 @@
 
 
     .map {
-        display:none;
+        background-color: white;
+        height:100%;
+    }
+
+    .mapPic {
+        height:50%;
+        width:50%;
     }
